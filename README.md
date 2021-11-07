@@ -39,11 +39,11 @@ source [ultrox](https://github.com/ultrox/)
 source froM [David K](https://twitter.com/davidkpiano/status/1292237580780605440)
 
 Mnemonic to use:
-(a, z) => a - z // ascending, like "a to z" or "from 1 to 100"
-(a, z) => z - a // descending, like "z to a" or "100 to 1"
+* (a, z) => a - z // ascending, like "a to z" or "from 1 to 100"
+* (a, z) => z - a // descending, like "z to a" or "100 to 1"
 
-to sort strings use [localeCompare](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) `a.localCompare(z)`
-to sort arbitrary list like month, you'll need custom callback that associate items with numbers
+<details>
+<summary>Some more details</summary>
 
 ```js
 var someItems = ["Feb", "Jan", "Apr", "Dec", "Oct"];
@@ -53,7 +53,12 @@ function sortMonths(a, b){
   
   return correctMonthsOrder.indexOf(a) - correctMonthsOrder.indexOf(b);
 }
+```
+
+to sort strings use [localeCompare](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) `a.localCompare(z)`
+to sort arbitrary list like month, you'll need custom callback that associate items with numbers
+
 
 someItems.sort(sortMonths);
-```
 src [Aphinya Dechalert](https://medium.com/madhash/demystifying-the-mysteries-of-sort-in-javascript-515ea5b48c7d)
+</details>
