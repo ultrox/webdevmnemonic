@@ -31,5 +31,29 @@ When I was learning about CORS I didn't know is origin, so I rememberd it as `PH
 
 Mnemonic to use: PHP
 > Origin is combination of Protocol(scheme) Host Port -> PHP
+source [ultrox](https://github.com/ultrox/)
 
+## Sort the array
 
+>if you're sorting an array in JS and keep forgetting how to write the compare functions (like I do), here's a mnemonic device:
+source froM [David K](https://twitter.com/davidkpiano/status/1292237580780605440)
+
+Mnemonic to use:
+(a, z) => a - z // ascending, like "a to z" or "from 1 to 100"
+(a, z) => z - a // descending, like "z to a" or "100 to 1"
+
+to sort strings use [localeCompare](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) `a.localCompare(z)`
+to sort arbitrary list like month, you'll need custom callback that associate items with numbers
+
+```js
+var someItems = ["Feb", "Jan", "Apr", "Dec", "Oct"];
+
+function sortMonths(a, b){
+  var correctMonthsOrder = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  
+  return correctMonthsOrder.indexOf(a) - correctMonthsOrder.indexOf(b);
+}
+
+someItems.sort(sortMonths);
+```
+src [Aphinya Dechalert](https://medium.com/madhash/demystifying-the-mysteries-of-sort-in-javascript-515ea5b48c7d)
