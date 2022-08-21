@@ -62,3 +62,13 @@ to sort arbitrary list like month, you'll need custom callback that associate it
 someItems.sort(sortMonths);
 src [Aphinya Dechalert](https://medium.com/madhash/demystifying-the-mysteries-of-sort-in-javascript-515ea5b48c7d)
 </details>
+
+### box-shadow
+
+* Mnemonic to use: xy bs color
+* How to read: xy bullshit color 
+* Meaning: x y blur spread color
+
+
+
+
