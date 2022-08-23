@@ -27,7 +27,7 @@ source from [hacker news user da02 on Aug 7, 2013](https://news.ycombinator.com/
 
 
 ## What is origin?
-When I was learning about CORS I didn't know is origin, so I rememberd it as `PHP`. I was very proud on my "discovery" so it stuck for me.
+When I was learning about CORS I didn't know what is origin, so I rememberd it as `PHP`. I was very proud on my "discovery" so it stuck for me.
 
 Mnemonic to use: PHP
 > Origin is combination of Protocol(scheme) Host Port -> PHP
