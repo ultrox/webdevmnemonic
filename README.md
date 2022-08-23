@@ -63,7 +63,7 @@ someItems.sort(sortMonths);
 src [Aphinya Dechalert](https://medium.com/madhash/demystifying-the-mysteries-of-sort-in-javascript-515ea5b48c7d)
 </details>
 
-### box-shadow
+## box-shadow
 
 * Mnemonic to use: xy bs color
 * How to read: xy bullshit color 
@@ -71,4 +71,20 @@ src [Aphinya Dechalert](https://medium.com/madhash/demystifying-the-mysteries-of
 
 
 
+## ISO Profile
 
+### Problem
+Remembering (mostly for europians) ISO profile YYYY-MM-DD
+
+Profile used(formatting) of ISO date/time string uses RFC3339 to govern those rules
+
+
+> **Note**
+> You MY Day? :heart:
+
+> **Note**
+> You Are MY Day! :heart:
+
+Sources:
+* https://archive.ph/7cqtR#selection-735.22-735.23
+* https://www.rfc-editor.org/rfc/rfc3339
