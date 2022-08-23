@@ -71,10 +71,10 @@ src [Aphinya Dechalert](https://medium.com/madhash/demystifying-the-mysteries-of
 
 
 
-## ISO Profile
+## ISO Profile (YYYY-MM-DD T HH:MM:SS Z)
 
 ### Problem
-Remembering (mostly for europians) ISO profile YYYY-MM-DD
+Remembering (mostly for europians) ISO profile YYYY-MM-DD is problematic, the rest make sense.
 
 Profile used(formatting) of ISO date/time string uses RFC3339 to govern those rules
 
