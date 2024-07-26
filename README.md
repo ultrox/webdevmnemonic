@@ -85,6 +85,11 @@ Profile used(formatting) of ISO date/time string uses RFC3339 to govern those ru
 > **Note**
 > You Are MY Day! :heart:
 
+## NOTE:
+This one is probably not needed, as logic RFC3339 was following is
+to go from largest to smallest untit. Year being largest, ms being smallest
+
+
 Sources:
 * https://archive.ph/7cqtR#selection-735.22-735.23
 * https://www.rfc-editor.org/rfc/rfc3339
