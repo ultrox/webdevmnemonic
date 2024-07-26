@@ -88,3 +88,13 @@ Profile used(formatting) of ISO date/time string uses RFC3339 to govern those ru
 Sources:
 * https://archive.ph/7cqtR#selection-735.22-735.23
 * https://www.rfc-editor.org/rfc/rfc3339
+
+
+## (oo) Git log diff between branches
+### Problem:
+You need to see what's new in origin/dev or origin/main compared to your current branch.
+Solution:
+Use the following syntax: `git log HEAD..origin/main`
+
+### Mnemonic:
+The two dots ".." are like binoculars (oo). You (HEAD) are aiming to see what's on the target (origin/main).
