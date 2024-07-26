@@ -93,7 +93,7 @@ Sources:
 ## (oo) Git log diff between branches
 ### Problem:
 You need to see what's new in origin/dev or origin/main compared to your current branch.
-Solution:
+###Solution:
 Use the following syntax: `git log HEAD..origin/main`
 
 ### Mnemonic:
